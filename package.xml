@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>AEMIK_TOOLS</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension for Magento</summary>
+    <description>Extension for Magento</description>
+    <notes>0.1.0 Stable</notes>
+    <authors><author><name>ChenMickael</name><user>chenmickael</user><email>chenmickael@yahoo.com</email></author></authors>
+    <date>2013-10-20</date>
+    <time>13:13:38</time>
+    <contents><target name="magelocal"><dir><dir name="Iws"><dir name="Expdoc"><dir name="Block"><file name="Bachcreate.php" hash="3ce72789d0711440ba0c75b421af2585"/><file name="Batch.php" hash="9c0983b2d07d76e06ab9b4da4ebf7102"/><file name="Valides.php" hash="46ba1ecce038d7375f6a12eaf3a1516d"/></dir><dir name="Helper"><file name="Data.php" hash="715dd1f8e15b094cd81a485548e53eca"/></dir><dir name="Model"><file name="Attributes.php" hash="594e9d81dbd4d36b58b00e07ba9457ba"/><file name="Attrset.php" hash="d988fed3d8240653bd4c72a77fc53ade"/><file name="Category.php" hash="0ad578f8e21bf5bfb5e87636bf83cdf0"/><file name="Createpdtype.php" hash="488b09587e3cc459add54600d8591797"/><file name="Doc.php" hash="625a7db5e7e346a9577d66dc04d853ba"/><file name="Enabled.php" hash="0f460600aec2d4fea32fa1607bf333b5"/><file name="Producttype.php" hash="12693ca2b4a5890ff220f6f08b4ac974"/></dir><dir name="controllers"><file name="IndexController.php" hash="f3f2d5adc7035dadb1f1ddf748faf6da"/></dir><dir name="etc"><file name="config.xml" hash="f6bcd809c18796a44399147a6412a08e"/><file name="system.xml" hash="baae90bc7675a7ce2739ee91ff145562"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Iws_Expdoc.xml" hash="86ee41598aeaffd5a1aaac4c5b8735ac"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

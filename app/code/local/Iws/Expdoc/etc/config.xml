@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+<modules><Iws_Expdoc><version>0.1.0</version></Iws_Expdoc></modules>
+<frontend><routers><expdoc><use>standard</use><args><module>Iws_Expdoc</module><frontName>iwsexpdoc</frontName></args></expdoc></routers></frontend>
+<global>
+<blocks><expdoc><class>Iws_Expdoc_Block</class></expdoc></blocks>
+<helpers><expdoc><class>Iws_Expdoc_Helper</class></expdoc></helpers>
+<models><expdoc><class>Iws_Expdoc_Model</class></expdoc></models>
+</global>
+<adminhtml><acl><resources><admin><children><system><children><config><children><iwsexpdoc><title>iCoolTechno expdoc</title></iwsexpdoc></children></config></children></system></children></admin></resources></acl></adminhtml>
+<default>
+<iwsexpdoc>
+<identifiant>
+<username>guest</username><password>guest2013</password>
+<service>http://webservice.voguemonde.com/index.php/webserv/app/</service>
+<apikey>iws5263c2ac8f635_de05b6563a95d7e0812245e5e68c911f</apikey>
+</identifiant>
+<expdoc><csv_attr>4</csv_attr></expdoc>
+</iwsexpdoc>
+</default>
+</config>

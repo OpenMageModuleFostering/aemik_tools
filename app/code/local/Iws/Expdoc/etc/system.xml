@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<config>
+<tabs>
+<iwsexpdoc translate="label" module="expdoc">
+<label>AEMIK IWS Tools</label>
+<sort_order>99999</sort_order>
+</iwsexpdoc>
+</tabs>
+<sections>
+<iwsexpdoc translate="label" module="expdoc">
+<label>AEMIK IWS Tools</label>
+<tab>iwsexpdoc</tab>
+<frontend_type>text</frontend_type>
+<sort_order>1000</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<groups>
+<identifiant translate="label">
+<label>AEMIK IWS Identifiant</label>
+<comment><![CDATA[ <p id="iwsAuthenticationfailed"><strong style="color:#ff0000">Note: Authentication failed !!&nbsp;&nbsp;&nbsp;</strong><strong style="font-size:0.9em; font-style:italic">For all information on this extension: <a href="http://www.voguemonde.com/" target="_new" title="VogueMonde.com.">www.Voguemonde.com/</a></strong></p>]]></comment>
+<frontend_type>text</frontend_type>
+<sort_order>5</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<fields>
+<service>
+<label>APP. Service</label>
+<frontend_type>password</frontend_type>
+<sort_order>0</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</service>
+</fields>
+<fields>
+<apikey>
+<label>API Key</label>
+<frontend_type>password</frontend_type>
+<sort_order>1</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</apikey>
+</fields>
+<fields>
+<username>
+<label>Username</label>
+<frontend_type>text</frontend_type>
+<sort_order>2</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</username>
+</fields>
+<fields>
+<password>
+<label>Password</label>
+<frontend_type>password</frontend_type>
+<sort_order>4</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</password>
+</fields>
+</identifiant>
+<expdoc translate="label">
+<label>AEMIK IWS Export Doc.</label>
+<frontend_type>text</frontend_type>
+<sort_order>10</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<fields>
+<csv_attr>
+<label>Attribute Set Name</label>
+<comment><![CDATA[ <span style="color:#ff0000">After this selection, please save the settings.</span>]]></comment>
+<frontend_type>select</frontend_type>
+<source_model>expdoc/Attrset</source_model>
+<sort_order>10</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</csv_attr>
+</fields>
+<fields>
+<csv_attrs>
+<label>Select Attributes</label>
+<comment><![CDATA[ Why this table does not update?<br>Because the settings are not saved after when you have selected (Attribute Set Name) ]]></comment>
+<frontend_type>Multiselect</frontend_type>
+<source_model>expdoc/Attributes</source_model>
+<sort_order>20</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<can_be_empty>1</can_be_empty>
+</csv_attrs>
+</fields>
+<fields>
+<csv_pdtype>
+<label>Product Type</label>
+<frontend_type>select</frontend_type>
+<source_model>expdoc/Producttype</source_model>
+<sort_order>25</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</csv_pdtype>
+</fields>
+<fields>
+<csv_ctg>
+<label>Select Categories</label>
+<frontend_type>Multiselect</frontend_type>
+<source_model>expdoc/Category</source_model>
+<sort_order>30</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<can_be_empty>1</can_be_empty>
+</csv_ctg>
+</fields>
+<fields>
+<csv_doc>
+<label>Document Type Exp.</label>
+<frontend_type>select</frontend_type>
+<source_model>expdoc/Doc</source_model>
+<sort_order>40</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<can_be_empty>1</can_be_empty>
+</csv_doc>
+</fields>
+<fields>
+<csv_validate translate="button_label">
+<label></label>
+<button_label>validate</button_label>
+<frontend_model>expdoc/valides</frontend_model>
+<sort_order>50</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</csv_validate>
+</fields>
+</expdoc>
+<batchcreatepd translate="label">
+<label>AEMIK IWS Batch create products</label>
+<frontend_type>text</frontend_type>
+<sort_order>50</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+<fields>
+<batch_pdtype>
+<label>Product Type</label>
+<frontend_type>select</frontend_type>
+<source_model>expdoc/Createpdtype</source_model>
+<sort_order>10</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</batch_pdtype>
+</fields>
+<fields>
+<batch_attr>
+<label>Attribute Set</label>
+<frontend_type>select</frontend_type>
+<source_model>expdoc/Attrset</source_model>
+<sort_order>20</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</batch_attr>
+</fields>
+<fields>
+<batch_button translate="button_label">
+<label></label>
+<button_label>validate</button_label>
+<frontend_model>expdoc/batch</frontend_model>
+<sort_order>25</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</batch_button>
+</fields>
+<fields>
+<batch_model>
+<label>Filling this form</label>
+<comment><![CDATA[ 1. You can copy { ... } and paste { with other products info } separated by commas to create more products.<br>2. The default path of images is ( root/media/import/ ). You can put multiple comma-separated images. (example: 1.jpg,2.jpg,3.jpg)<br><span style="color:#ff0000">3. All ## commodity information must be replaced with your settings.</span><br><strong style="color:#ff0000" id="runbatchcreate">4. Important! After filling this form, please save the settings before the run.</strong>]]></comment>
+<frontend_type>textarea</frontend_type>
+<source_model>expdoc/Attrset</source_model>
+<sort_order>30</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</batch_model>
+</fields>
+<fields>
+<batch_valider translate="button_label">
+<label></label>
+<button_label>Create</button_label>
+<frontend_model>expdoc/bachcreate</frontend_model>
+<sort_order>40</sort_order>
+<show_in_default>1</show_in_default>
+<show_in_website>1</show_in_website>
+<show_in_store>1</show_in_store>
+</batch_valider>
+</fields>
+</batchcreatepd>
+</groups>
+</iwsexpdoc>
+</sections>
+</config>
