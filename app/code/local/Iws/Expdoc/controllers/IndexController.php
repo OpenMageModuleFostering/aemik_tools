@@ -1,4 +1,12 @@
 <?php
+/**
+ * AEMIK TOOLSET - 1.0 
+ *
+ * @Authors    Mickael Chen
+ * @Contact    chenmickael@yahoo.com
+ * @copyright  Copyright (c) 2013 AEMIK (http://www.voguemonde.com)
+ * @license    http://opensource.org/licenses/gpl-license.php (GPL)
+ */
 class Iws_Expdoc_IndexController extends Mage_Core_Controller_Front_Action{
 public function expAction(){
 $p=$this->getRequest()->getParams();

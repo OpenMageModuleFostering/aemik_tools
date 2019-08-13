@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * AEMIK TOOLSET - 1.0 
+ *
+ * @Authors    Mickael Chen
+ * @Contact    chenmickael@yahoo.com
+ * @copyright  Copyright (c) 2013 AEMIK (http://www.voguemonde.com)
+ * @license    http://opensource.org/licenses/gpl-license.php (GPL)
+ */
+-->
 <config>
 <modules><Iws_Expdoc><version>0.1.0</version></Iws_Expdoc></modules>
 <frontend><routers><expdoc><use>standard</use><args><module>Iws_Expdoc</module><frontName>iwsexpdoc</frontName></args></expdoc></routers></frontend>

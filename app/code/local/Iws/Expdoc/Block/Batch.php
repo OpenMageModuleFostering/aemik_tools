@@ -1,4 +1,12 @@
 <?php
+/**
+ * AEMIK TOOLSET - 1.0 
+ *
+ * @Authors    Mickael Chen
+ * @Contact    chenmickael@yahoo.com
+ * @copyright  Copyright (c) 2013 AEMIK (http://www.voguemonde.com)
+ * @license    http://opensource.org/licenses/gpl-license.php (GPL)
+ */
 class Iws_Expdoc_Block_Batch extends Mage_Adminhtml_Block_System_Config_Form_Field{
 protected function _toHtml(){
 $html='

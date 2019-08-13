@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * AEMIK TOOLSET - 1.0 
+ *
+ * @Authors    Mickael Chen
+ * @Contact    chenmickael@yahoo.com
+ * @copyright  Copyright (c) 2013 AEMIK (http://www.voguemonde.com)
+ * @license    http://opensource.org/licenses/gpl-license.php (GPL)
+ */
+-->
 <config>
 <tabs>
 <iwsexpdoc translate="label" module="expdoc">
