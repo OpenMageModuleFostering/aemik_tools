@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/AEMIK_TOOLS",
+    "name": "OpenMageModuleFostering\/AEMIK_TOOLS",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Extension for Magento",
     "authors": [
-    {
-        "name": "ChenMickael",
-        "email": "chenmickael@yahoo.com"
-    }
-],
+        {
+            "name": "ChenMickael",
+            "email": "chenmickael@yahoo.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
